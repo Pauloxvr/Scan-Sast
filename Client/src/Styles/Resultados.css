@@ -1,0 +1,35 @@
+.contentRes
+{
+    text-align: center;
+    background-color: #282c34;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-top: 0px;
+}
+
+.style-button
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    box-shadow: 0 4px #999;
+
+}
+
+.vazia
+{   
+    padding-top: 100px;
+    background-color: #282c34;
+}

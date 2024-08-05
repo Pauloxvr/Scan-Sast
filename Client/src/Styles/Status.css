@@ -1,0 +1,30 @@
+.status-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px; 
+  }
+  
+  .spinner {
+    animation: spin 1s linear infinite;
+    font-size: 2em; 
+  }
+  
+  .check {
+    color: green;
+    font-size: 2em; 
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .App {
+    text-align: center;
+}
+
+.h1status
+{
+    padding-top: 20px;
+}
